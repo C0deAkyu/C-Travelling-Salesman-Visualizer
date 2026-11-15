@@ -16,10 +16,10 @@ For this, I made a custom tree based algorithm that populates a tree with a root
 
 ## Program Info
 
-I highly recommend cloning this repo if you are to use it because then you can change some boolean settings in the source code to get differnt behaviour. 
-`const unsigned int numberOfPoints` - Controls how many points are generated on the map.
-`const bool showOnlyBest` - If true, only the current best route is shown on screen, otherwise if false, every permutation is drawn.
-`const bool hyperOptimizationMode` - If true, this will remove all UI draw calls, making each render pass quicker. 
+I highly recommend cloning this repo if you are to use it because then you can change some boolean settings in the source code to get differnt behaviour.\
+`const unsigned int numberOfPoints` - Controls how many points are generated on the map.\
+`const bool showOnlyBest` - If true, only the current best route is shown on screen, otherwise if false, every permutation is drawn.\
+`const bool hyperOptimizationMode` - If true, this will remove all UI draw calls, making each render pass quicker.\
 The macros at the top are pretty self explanitory so feel free to play around with thoes :) 
 
 Since I am not good at programming and don't know anything about C, the code quality is poor and I am aware of at least 1 current memory leak :> But we can ignore that for now :) Any tips on how to improve my C will be greatly appriciated <3
